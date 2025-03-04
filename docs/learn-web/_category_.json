@@ -1,0 +1,8 @@
+{
+  "label": "Learn Web",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Every material you need for web development."
+  }
+}
