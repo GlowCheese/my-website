@@ -27,30 +27,46 @@ title: Nguyên hàm
 
 #### Hàm lượng giác
 <div class='block-equation'>
+   <div class='block-item-hf'>
    $$
       \int \sin x \, dx = -\cos x + C
    $$
+   </div>
+   <div class='block-item-hf'>
    $$
       \int \cos x \, dx = \sin x + C
    $$
+   </div>
+   <div class='block-item-hf'>
    $$
       \int \tan x \, dx = -\ln|\cos x| + C
    $$
+   </div>
+   <div class='block-item-hf'>
    $$
       \int \cot x \, dx = \ln|\sin x| + C
    $$
+   </div>
+   <div class='block-item-hf'>
    $$
       \int \frac{dx}{\cos^2 x} = \tan x + C
    $$
+   </div>
+   <div class='block-item-hf'>
    $$
       \int \frac{dx}{\sin^2 x} = -\cot x + C
    $$
+   </div>
+   <div class='block-item-hf'>
    $$
       \int \frac{\sin x}{\cos^2 x} \, dx = \frac 1{\cos x} + C
    $$
+   </div>
+   <div class='block-item-hf'>
    $$
       \int \frac{\cos x}{\sin^2 x} \, dx = -\frac 1{\sin x} + C
    $$
+   </div>
 </div>
 
 #### Hàm lượng giác ngược
@@ -67,13 +83,11 @@ title: Nguyên hàm
 #### Hàm phân thức
 <div class='block-equation'>
 $$
-   \int \frac{1}{x^2 + a^2} \, dx = \frac{1}{a} \arctan\left(\frac{x}{a}\right) + C
-$$
-$$
-   \int \frac{1}{x^2 - a^2} \, dx = \frac{1}{2a} \ln\left|\frac{x - a}{x + a}\right| + C \quad (x \neq \pm a)
-$$
-$$
-   \int \frac{1}{\sqrt{x^2 + a^2}} \, dx = \ln\left|x + \sqrt{x^2 + a^2}\right| + C
+\begin{aligned}
+\int \frac{1}{x^2 + a^2} \, dx &= \frac{1}{a} \arctan\left(\frac{x}{a}\right) + C \\
+\int \frac{1}{x^2 - a^2} \, dx &= \frac{1}{2a} \ln\left|\frac{x - a}{x + a}\right| + C \quad (x \neq \pm a) \\
+\int \frac{1}{\sqrt{x^2 + a^2}} \, dx &= \ln\left|x + \sqrt{x^2 + a^2}\right| + C
+\end{aligned}
 $$
 </div>
 

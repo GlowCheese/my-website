@@ -8,24 +8,36 @@ title: Lượng giác
 #### Công thức góc bù, phụ, đối:
 
 <div class='block-equation'>
+<div class='block-item-hf'>
 $$
 \sin(-x) = -\sin x
 $$
+</div>
+<div class='block-item-hf'>
 $$
 \cos(-x) = \cos x
 $$
+</div>
+<div class='block-item-hf'>
 $$
 \sin\left(\pi/2 - x\right) = \cos x
 $$
+</div>
+<div class='block-item-hf'>
 $$
 \cos\left(\pi/2 - x\right) = \sin x
 $$
+</div>
+<div class='block-item-hf'>
 $$
 \sin(\pi - x) = \sin x
 $$
+</div>
+<div class='block-item-hf'>
 $$
 \cos(\pi - x) = -\cos x
 $$
+</div>
 </div>
 
 #### Công thức Pythagoras:
@@ -35,10 +47,10 @@ $$
 \sin^2 x + \cos^2 x = 1
 $$
 $$
-1 + \tan^2 x = \frac{1}{\cos^2 x}
+1 + \tan^2 x = 1/ \cos^2 x
 $$
 $$
-1 + \cot^2 x = \frac{1}{\sin^2 x}
+1 + \cot^2 x = 1/ \sin^2 x
 $$
 </div>
 

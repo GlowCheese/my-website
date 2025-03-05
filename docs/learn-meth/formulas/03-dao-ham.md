@@ -20,24 +20,36 @@ title: Đạo hàm
 
 #### Đạo hàm lượng giác
 <div class='block-equation'>
+    <div class='block-item-hf'>
     $$
     (\sin x)' = \cos x
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     (\cos x)' = -\sin x
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     (\tan x)' = 1 / \cos^2 x
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     (\cot x)' = -1 / \sin^2 x
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     (\sin x)^{(m)} = \sin \left(x + \frac{m\pi}2\right)
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     (\cos x)^{(m)} = \cos \left(x + \frac{m\pi}2\right)
     $$
+    </div>
 </div>
 
 #### Đạo hàm lượng giác ngược
@@ -63,18 +75,26 @@ title: Đạo hàm
 
 #### Quy tắc đạo hàm
 <div class='block-equation'>
+    <div class='block-item-hf'>
     $$
     \frac{d}{dx}[u \pm v] = u' \pm v'
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     \frac{d}{dx}[u \cdot v] = u' \cdot v + u \cdot v'
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     \frac{d}{dx}\left[\frac{u}{v}\right] = \frac{u' \cdot v - u \cdot v'}{[v]^2}
     $$
+    </div>
+    <div class='block-item-hf'>
     $$
     \frac{d}{dx}[f(u(x))] = f'(u) \cdot u'(x)
     $$
+    </div>
 </div>
 
 #### Đạo hàm Hyperbolic
