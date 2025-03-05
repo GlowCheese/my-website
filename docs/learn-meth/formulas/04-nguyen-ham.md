@@ -2,24 +2,7 @@
 title: Nguyên hàm
 ---
 
-<style>
-{`
-.block-equation {
-    border: 2px solid green;
-    background-color: white;
-    color: black;
-    padding: 5px;
-    width: 90%;
-    margin-bottom: 50px;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    column-gap: 2em;
-    justify-content: space-evenly;
-}
-`}
-</style>
+<link rel="stylesheet" href="/meth/equation.css"/>
 
 
 #### Hàm lũy thừa

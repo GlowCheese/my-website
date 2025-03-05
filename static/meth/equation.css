@@ -1,0 +1,15 @@
+.block-equation {
+    border: 2px solid green;
+    background-color: white;
+    color: black;
+    padding-inline: 20px;
+    width: 90%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    column-gap: 2em;
+    justify-content: space-evenly;
+}

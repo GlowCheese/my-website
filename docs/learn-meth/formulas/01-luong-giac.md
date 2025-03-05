@@ -2,24 +2,8 @@
 title: Lượng giác
 ---
 
-<style>
-{`
-.block-equation {
-    border: 2px solid green;
-    background-color: white;
-    color: black;
-    padding: 5px;
-    width: 90%;
-    margin-bottom: 50px;
+<link rel="stylesheet" href="/meth/equation.css"/>
 
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    column-gap: 2em;
-    justify-content: space-evenly;
-}
-`}
-</style>
 
 #### Công thức góc bù, phụ, đối:
 

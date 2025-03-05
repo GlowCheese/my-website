@@ -2,24 +2,8 @@
 title: Đạo hàm
 ---
 
-<style>
-{`
-.block-equation {
-    border: 2px solid green;
-    background-color: white;
-    color: black;
-    padding: 5px;
-    width: 90%;
-    margin-bottom: 50px;
+<link rel="stylesheet" href="/meth/equation.css"/>
 
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    column-gap: 2em;
-    justify-content: space-evenly;
-}
-`}
-</style>
 
 #### Đạo hàm cơ bản
 <div class='block-equation'>

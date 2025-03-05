@@ -8,7 +8,7 @@ title: Vô cùng bé
     border: 2px solid green;
     background-color: white;
     color: black;
-    padding: 5px;
+    padding-inline: 20px;
     width: 90%;
     margin: auto;
     margin-bottom: 50px;
