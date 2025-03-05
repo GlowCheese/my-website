@@ -10,8 +10,13 @@ title: Lượng giác
     color: black;
     padding: 5px;
     width: 90%;
-    margin: auto;
     margin-bottom: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    column-gap: 2em;
+    justify-content: space-evenly;
 }
 `}
 </style>
@@ -21,17 +26,20 @@ title: Lượng giác
 <div class='block-equation'>
 $$
 \sin(-x) = -\sin x
-\qquad
+$$
+$$
 \cos(-x) = \cos x
 $$
 $$
 \sin\left(\pi/2 - x\right) = \cos x
-\qquad
+$$
+$$
 \cos\left(\pi/2 - x\right) = \sin x
 $$
 $$
 \sin(\pi - x) = \sin x
-\qquad
+$$
+$$
 \cos(\pi - x) = -\cos x
 $$
 </div>
@@ -41,9 +49,11 @@ $$
 <div class='block-equation'>
 $$
 \sin^2 x + \cos^2 x = 1
-\qquad
+$$
+$$
 1 + \tan^2 x = \frac{1}{\cos^2 x}
-\qquad
+$$
+$$
 1 + \cot^2 x = \frac{1}{\sin^2 x}
 $$
 </div>
@@ -89,9 +99,11 @@ $$
 <div class='block-equation'>
 $$
 \sin^2 x = \frac{1 - \cos 2x}{2}
-\qquad
+$$
+$$
 \cos^2 x = \frac{1 + \cos 2x}{2}
-\qquad
+$$
+$$
 \tan^2 x = \frac{1 - \cos 2x}{1 + \cos 2x}
 $$
 </div>
@@ -126,7 +138,8 @@ $$
 <div class='block-equation'>
 $$
 \sin^{-1} x + \cos^{-1} x = \pi/2
-\qquad
+$$
+$$
 \tan^{-1} x + \cot^{-1} x = \pi/2
 $$
 </div>
@@ -136,9 +149,11 @@ $$
 <div class='block-equation'>
 $$
 \sinh x = \frac{e^x - e^{-x}}{2}
-\qquad
+$$
+$$
 \cosh x = \frac{e^x + e^{-x}}{2}
-\qquad
+$$
+$$
 \tanh x = \frac{\sinh x}{\cosh x}
 $$
 </div>
