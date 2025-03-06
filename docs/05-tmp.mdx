@@ -1,0 +1,81 @@
+import React, { useState } from 'react';
+
+export default function ProtectedPage() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [password, setPassword] = useState("");
+
+  const checkPassword = async () => {
+    const response = await fetch("/.netlify/functions/protected", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ page: "tmp", password }),
+    });
+    const data = await response.json();
+
+    if (data.access) {
+      setIsAuthenticated(true);
+    } else {
+      alert("Sai mật khẩu!");
+    }
+  };
+
+  return (
+    <div>
+      {!isAuthenticated ? (
+        <div style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          backgroundColor: "#f3f4f6",
+          padding: "24px",
+          borderRadius: "16px",
+          boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+          width: "320px",
+          margin: "auto"
+        }}>
+          <h2 style={{ fontSize: "20px", fontWeight: "600", marginBottom: "16px", color: "#374151" }}>
+            Welcome back! 👋
+          </h2>
+          
+          <input
+            type="password"
+            placeholder="Nhập mật khẩu để tiếp tục..."
+            style={{
+              width: "100%",
+              padding: "12px",
+              border: "1px solid #d1d5db",
+              borderRadius: "8px",
+              textAlign: "center",
+              outline: "none"
+            }}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          
+          <button
+            onClick={checkPassword}
+            style={{
+              width: "100%",
+              marginTop: "16px",
+              backgroundColor: "#3b82f6",
+              color: "white",
+              padding: "10px",
+              borderRadius: "8px",
+              border: "none",
+              cursor: "pointer",
+              transition: "background 0.3s"
+            }}
+            onMouseOver={(e) => e.target.style.backgroundColor = "#2563eb"}
+            onMouseOut={(e) => e.target.style.backgroundColor = "#3b82f6"}
+          >
+            Xác nhận
+          </button>
+        </div>
+      ) : (
+        <div>
+          <h1>Nội dung bí mật 🚀</h1>
+          <p>Chỉ những ai biết mật khẩu mới xem được.</p>
+        </div>
+      )}
+    </div>
+  );
+}
