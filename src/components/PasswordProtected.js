@@ -86,7 +86,12 @@ export default function PasswordProtected({ page, children }) {
           </button>
         </div>
       ) : (
-        <div style={{ maxWidth: "600px", margin: "auto", padding: "20px", color: textColor }}>
+        <div style={{
+          maxWidth: "600px",
+          margin: "auto",
+          padding: "20px",
+          color: textColor
+        }}>
           {children}
         </div>
       )}
